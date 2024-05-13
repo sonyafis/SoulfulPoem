@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileActivity">
+
+    <LinearLayout
+        android:id="@+id/linearlayout"
+        android:layout_width="350sp"
+        android:layout_height="180sp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/sff191919sw3bffffffff"
+        android:contentDescription="@string/linearlayout"
+        android:orientation="vertical"
+        android:padding="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearlayout2">
+
+        <TextView
+            android:id="@+id/linearlayout_titletext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/playfair_display_sc"
+            android:text="@string/texttitle2_profile"
+            android:textColor="#000000"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/linearlayout_maintext"
+            android:layout_width="224dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10sp"
+            android:fontFamily="@font/playfair_display_sc"
+            android:text="@string/textmain2_profile"
+            android:textColor="#BC000000"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/linearlayout_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="45sp"
+            android:layout_marginStart="230sp"
+            android:background="@drawable/sff191919sw1bffffffff"
+            android:contentDescription="@string/linearlayout_button"
+            android:text="@string/button2_profile" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearlayout2"
+        android:layout_width="350sp"
+        android:layout_height="135sp"
+        android:layout_marginTop="84dp"
+        android:background="@drawable/sff191919sw3bffffffff"
+        android:contentDescription="@string/linearlayout"
+        android:orientation="vertical"
+        android:padding="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView_Basic">
+
+        <TextView
+            android:id="@+id/linearlayout_titletext2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/playfair_display_sc"
+            android:text="@string/texttitle_profile"
+            android:textColor="#000000"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/linearlayout_maintext2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5sp"
+            android:fontFamily="@font/playfair_display_sc"
+            android:text="@string/textmain_profile"
+            android:textColor="#BC000000"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/linearlayout_button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="45sp"
+            android:layout_marginStart="230sp"
+            android:background="@drawable/sff191919sw1bffffffff"
+            android:contentDescription="@string/linearlayout_button"
+            android:text="@string/button_profile" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView_Basic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="44dp"
+        android:fontFamily="@font/cotta"
+        android:text="@string/text_title"
+        android:textColor="#000000"
+        android:textSize="35sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView_Basic2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:contentDescription="@string/band_main"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_Basic"
+        app:srcCompat="@drawable/vector_1" />
+
+    <ImageView
+        android:id="@+id/imageView_Basic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="144dp"
+        android:contentDescription="@string/band_main"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_Basic"
+        app:srcCompat="@drawable/vector_1" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/playfair_display_sc"
+        android:text="@string/profile_name"
+        android:textColor="#AB000000"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="124dp"
+        android:fontFamily="@font/playfair_display_sc"
+        android:text="@string/profile_title"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="@+id/imageView_Basic"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/playfair_display_sc"
+        android:text="@string/profile_work"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView_Basic" />
+
+    <ImageButton
+        android:id="@+id/imageButton_Home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="520dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:contentDescription="@string/imagebutton_home"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView_Basic"
+        app:srcCompat="@drawable/subtract" />
+
+    <ImageButton
+        android:id="@+id/imageButton_Add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="520dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:contentDescription="@string/imagebutton_add"
+        app:layout_constraintStart_toEndOf="@+id/imageButton_Home"
+        app:layout_constraintTop_toBottomOf="@+id/imageView_Basic"
+        app:srcCompat="@drawable/subtract__1_" />
+
+    <ImageButton
+        android:id="@+id/imageButton_Profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="520dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:contentDescription="@string/imagebutton_profile"
+        app:layout_constraintStart_toEndOf="@+id/imageButton_Add"
+        app:layout_constraintTop_toBottomOf="@+id/imageView_Basic"
+        app:srcCompat="@drawable/subtract__3_" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

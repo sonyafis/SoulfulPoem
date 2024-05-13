@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="BlackButtonStyle" parent="Widget.AppCompat.Button">
+        <item name="android:background">#1A1A1A</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:layout_width">300sp</item>
+    </style>
+
+</resources>

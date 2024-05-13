@@ -1,0 +1,80 @@
+<resources>
+    <string name="app_name">Practica_project</string>
+    <string name="text_title">soulful poem</string>
+    <string name="text_main">Обменивайтесь своими \n стихами и вдохновляйтесь\n работами других\n пользователей</string>
+    <string name="band_main">Title</string>
+    <string name="image_main">Image Main</string>
+    <string name="button_main">Начать</string>
+
+
+
+    <string name="title_firstpage">Вход/</string>
+    <string name="title_firstpage2">Регистрация</string>
+    <string name="textinput_firstpage">Имя</string>
+    <string name="textinput2_firstpage">Логин</string>
+    <string name="textinput3_firstpage">Пароль</string>
+    <string name="button_firstpage">Регистрация</string>
+
+    <string name="button_input">Вход</string>
+
+    <string name="imagebutton_home">Home</string>
+    <string name="imagebutton_add">Add</string>
+    <string name="imagebutton_favorites">Favorites</string>
+    <string name="imagebutton_profile">Profile</string>
+
+    <string name="linearlayout">Стих1</string>
+    <string name="linearlayout_titletext">От любви твоей\nзагадочной…</string>
+    <string name="linearlayout_maintext">От любви твоей загадочной,\nКак от боли, в крик кричу,
+        \nСтала желтой и припадочной,\nЕле ноги волочу.\nНовых песен не насвистывай,
+        \nПесней долго ль обмануть,\nНо когти, когти неистовей\n...</string>
+    <string name="linearlayout_button">ещё...</string>
+
+    <string name="linearlayout2">Стих2</string>
+    <string name="linearlayout2_titletext">Все ушли, и никто не вернулся…</string>
+    <string name="linearlayout2_maintext">Все ушли, и никто не\nвернулся,\nТолько, верный обету\nлюбви ...</string>
+    <string name="linearlayout2_button">ещё...</string>
+
+    <string name="linearlayout3">Стих3</string>
+    <string name="linearlayout3_titletext">Самоубийство</string>
+    <string name="linearlayout3_maintext">Был вечер музыки и ласки,\nВсё в дачном садике цвело.\nЕму в задумчивые глазки\n...</string>
+    <string name="linearlayout3_button">ещё...</string>
+
+    <string name="linearlayout4">Стих4</string>
+    <string name="linearlayout4_titletext">Ландыш, ландыш\nбелоснежный…</string>
+    <string name="linearlayout4_maintext">Ландыш, ландыш\nбелоснежный,\nРозан аленький!\nКаждый говорил ей\nнежно\n«Моя маленькая!» —\nЛиком — чистая\nиконка ...</string>
+    <string name="linearlayout4_button">ещё...</string>
+
+    <string name="linearlayout5">Стих5</string>
+    <string name="linearlayout5_titletext">Колдунья</string>
+    <string name="linearlayout5_maintext">Я — Эва, и страсти\nмои велики \nВся жизнь моя\nстрастная дрожь...</string>
+    <string name="linearlayout5_button">ещё...</string>
+
+    <string name="linearlayout_poem">Стихи</string>
+    <string name="titletext_poem">Назад</string>
+    <string name="imagebutton_poem">Стрелка</string>
+    <string name="imagepol_poem">Полоска</string>
+    <string name="titlepoem_poem">От любви твоей\nзагадочной…</string>
+    <string name="textmain_poem">От любви твоей загадочной,\nКак от боли, в крик кричу,\nСтала желтой и припадочной,\nЕле ноги волочу.\n\nНовых песен не насвистывай,\nПесней долго ль обмануть,\nНо когти, когти неистовей\nМне чахоточную грудь,\n\nЧтобы кровь из горла хлынула\nПоскорее на постель,\nЧтобы смерть из сердца вынула\nНавсегда проклятый хмель.</string>
+    <string name="button2_poem">Поделиться</string>
+
+    <string name="linearlayout_add">Стихи</string>
+    <string name="titletext_add">Назад</string>
+    <string name="imgbutton_add">Стрелка</string>
+    <string name="imagepol_add">Полоска</string>
+    <string name="titlepoem_add">От любви твоей загадочной…</string>
+    <string name="titlepoem_add2">Название:</string>
+    <string name="textmain_add2">Текст:</string>
+    <string name="textmain_add">От любви твоей загадочной,\nКак от боли, в крик кричу,\nСтала желтой и припадочной,\nЕле ноги волочу.\n\nНовых песен не насвистывай,\nПесней долго ль обмануть,\nНо когти, когти неистовей\nМне чахоточную грудь,\n\nЧтобы кровь из горла хлынула\nПоскорее на постель,\nЧтобы смерть из сердца вынула\nНавсегда проклятый хмель.</string>
+    <string name="button_add">Опубликовать</string>
+
+    <string name="profile_title">Профиль:</string>
+    <string name="profile_name">София</string>
+    <string name="profile_work">Работы:</string>
+    <string name="texttitle_profile">Все ушли, и никто не вернулся…</string>
+    <string name="textmain_profile">Все ушли, и никто не вернулся,\nТолько, верный обету любви ...</string>
+    <string name="button_profile">ещё...</string>
+
+    <string name="texttitle2_profile">Самоубийство</string>
+    <string name="textmain2_profile">Был вечер музыки и ласки,\nВсё в дачном садике цвело.\nЕму в задумчивые глазки\n...</string>
+    <string name="button2_profile">ещё...</string>
+</resources>
